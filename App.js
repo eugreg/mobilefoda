@@ -1,11 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Couter from './src/components/Couter';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Couter min="10"/> 
+      <Couter min="1"/>
+      <Couter />
     </View>
   );
 }
